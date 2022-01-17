@@ -1,0 +1,25 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    //Kamus
+    int r, t;
+    float phi, Keliling_alas, Luas, Volume;
+
+    r = 7;
+    t = 5;
+    phi = 3.14;
+    Keliling_alas = 2 * phi * r;
+    Luas = 2 * phi * r * r;
+    Volume = phi * r * r * t;
+    //algoritma
+    cout <<"Progam mencari Keliling alas,Luas dan Volume Tabung" << endl;
+    cout <<"===================================================" << endl;
+    cout <<"Keliling_alas ="<<Keliling_alas<< endl;
+    cout <<"Luas ="<<Luas<< endl;
+    cout <<"Volume ="<<Volume<< endl;
+
+    return 0;
+}
